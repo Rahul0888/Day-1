@@ -1,0 +1,29 @@
+using System;
+					
+public class Program
+{
+	public static void Main()
+	{
+		int num;
+		Console.WriteLine("Enter values");
+		num=Convert.ToInt32(Console.ReadLine());
+	
+		if(num==1)
+		{
+			Console.WriteLine("ONE");
+		}
+		 else if(num==2)
+		{
+			Console.WriteLine("TWO");
+		}
+		 else if(num==3)
+		{
+			Console.WriteLine("THREE");
+		}
+		else
+		{
+			Console.WriteLine("please enter number btw 1-3");
+		}
+		Console.ReadLine();
+	}
+}
